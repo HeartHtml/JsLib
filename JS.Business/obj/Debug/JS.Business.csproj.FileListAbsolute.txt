@@ -85,3 +85,5 @@ C:\Source\JSLib\JS.Business\bin\Debug\Microsoft.Practices.Unity.Interception.pdb
 C:\Source\JSLib\JS.Business\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.pdb
 C:\Source\JSLib\JS.Business\obj\Debug\JS.Business.dll
 C:\Source\JSLib\JS.Business\obj\Debug\JS.Business.pdb
+C:\Source\JSLib\JS.Business\bin\Debug\JS.Business.XML
+C:\Source\JSLib\JS.Business\bin\Debug\JS.Entities.xml
