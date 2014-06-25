@@ -4,8 +4,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JS.Entities", "JS.Entities\JS.Entities.csproj", "{7E25A809-7062-4C95-8B55-EDC39CBCCAAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JS.Data", "JS.Data\JS.Data.csproj", "{52007A7E-219A-437A-B9A6-1C889A4E4AF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E25A809-7062-4C95-8B55-EDC39CBCCAAF} = {7E25A809-7062-4C95-8B55-EDC39CBCCAAF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JS.Business", "JS.Business\JS.Business.csproj", "{F094D893-05BA-4F1D-9445-F68B027067B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52007A7E-219A-437A-B9A6-1C889A4E4AF1} = {52007A7E-219A-437A-B9A6-1C889A4E4AF1}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JS.Test", "JS.Test\JS.Test.csproj", "{6CEAC4EF-40C8-4E59-B13E-D1973E71ECF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E25A809-7062-4C95-8B55-EDC39CBCCAAF} = {7E25A809-7062-4C95-8B55-EDC39CBCCAAF}
+		{F094D893-05BA-4F1D-9445-F68B027067B5} = {F094D893-05BA-4F1D-9445-F68B027067B5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +37,10 @@ Global
 		{F094D893-05BA-4F1D-9445-F68B027067B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F094D893-05BA-4F1D-9445-F68B027067B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F094D893-05BA-4F1D-9445-F68B027067B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CEAC4EF-40C8-4E59-B13E-D1973E71ECF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CEAC4EF-40C8-4E59-B13E-D1973E71ECF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CEAC4EF-40C8-4E59-B13E-D1973E71ECF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CEAC4EF-40C8-4E59-B13E-D1973E71ECF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
