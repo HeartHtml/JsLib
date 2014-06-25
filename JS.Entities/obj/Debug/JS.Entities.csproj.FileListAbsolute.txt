@@ -1,0 +1,5 @@
+C:\Source\JSLib\JS.Entities\obj\Debug\JS.Entities.csprojResolveAssemblyReference.cache
+C:\Source\JSLib\JS.Entities\bin\Debug\JS.Entities.dll
+C:\Source\JSLib\JS.Entities\bin\Debug\JS.Entities.pdb
+C:\Source\JSLib\JS.Entities\obj\Debug\JS.Entities.dll
+C:\Source\JSLib\JS.Entities\obj\Debug\JS.Entities.pdb

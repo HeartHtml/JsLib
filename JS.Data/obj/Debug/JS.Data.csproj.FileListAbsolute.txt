@@ -1,0 +1,5 @@
+C:\Source\JSLib\JS.Data\bin\Debug\JS.Data.dll
+C:\Source\JSLib\JS.Data\bin\Debug\JS.Data.pdb
+C:\Source\JSLib\JS.Data\obj\Debug\JS.Data.csprojResolveAssemblyReference.cache
+C:\Source\JSLib\JS.Data\obj\Debug\JS.Data.dll
+C:\Source\JSLib\JS.Data\obj\Debug\JS.Data.pdb
